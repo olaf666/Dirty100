@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		#button {
+			padding: 20px 30px 20px 30px; 
+			margin-top: 60px; 
+			margin-left: 540px; 
+			font-size: 24px; 
+			background-color: pink; 
+			color: white; 
+			border-radius: 7px; 
+			border: 2px solid white;
+			box-shadow: none; 
+			-webkit transition-duration: 0.4s;
+			transition-duration: 0.4s;
+			cursor: pointer;
+		}
+		#button:hover {
+			background-color: black;
+			color: green;
+		}
+	</style>
+</head>
+<body style="background-color: #999fd2">
+<button type="button" id="button"> Click here!  </button>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+	
+	function randomColor() {
+		return '#' + Math.random().toString(16).slice(2, 8);
+	};
+
+	$("#button").on("click", function () {
+		$('body').css('background', randomColor());
+	});
+});
+
+</script>
+</body>
+</html>
