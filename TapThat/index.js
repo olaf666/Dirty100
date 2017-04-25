@@ -8,10 +8,8 @@ $(document).ready(function() {
 	 
 	});
 $(function() {
-	var box1hover = $("#box1");
-	var box1audio = box1hover.find("audio")[0];
-
-	box1hover.hover(
+	var box1audio = $("#box1").find("audio")[0];
+	$("#box1").hover(
 		function() {
 		box1audio.play();
 	},
@@ -21,10 +19,8 @@ $(function() {
 	});
 
 $(function() {
-	var box2hover = $("#box2");
-	var box2audio = box2hover.find("audio")[0];
-
-	box2hover.hover(
+	var box2audio = $("#box2").find("audio")[0];
+	$("#box2").hover(
 		function() {
 		box2audio.play();
 	},
@@ -34,10 +30,8 @@ $(function() {
 	});
 
 $(function() {
-	var box3hover = $("#box3");
-	var box3audio = box3hover.find("audio")[0];
-
-	box3hover.hover(
+	var box3audio = $("#box3").find("audio")[0];
+	$("#box3").hover(
 		function() {
 		box3audio.play();
 	},
@@ -47,10 +41,8 @@ $(function() {
 	});
 
 $(function() {
-	var box4hover = $("#box4");
-	var box4audio = box4hover.find("audio")[0];
-
-	box4hover.hover(
+	var box4audio = $("#box4").find("audio")[0];
+	$("#box4").hover(
 		function() {
 		box4audio.play();
 	},
@@ -60,10 +52,8 @@ $(function() {
 	});
 
 $(function() {
-	var box5hover = $("#box5");
-	var box5audio = box5hover.find("audio")[0];
-
-	box5hover.hover(
+	var box5audio =  $("#box5").find("audio")[0];
+	 $("#box5").hover(
 		function() {
 		box5audio.play();
 	},
@@ -73,10 +63,8 @@ $(function() {
 	});
 
 $(function() {
-	var box6hover = $("#box6");
-	var box6audio = box6hover.find("audio")[0];
-
-	box6hover.hover(
+	var box6audio = $("#box6").find("audio")[0];
+	$("#box6").hover(
 		function() {
 		box6audio.play();
 	},
@@ -86,10 +74,8 @@ $(function() {
 	});
 
 $(function() {
-	var box7hover = $("#box7");
-	var box7audio = box7hover.find("audio")[0];
-
-	box7hover.hover(
+	var box7audio = $("#box7").find("audio")[0];
+	$("#box7").hover(
 		function() {
 		box7audio.play();
 	},
@@ -99,10 +85,8 @@ $(function() {
 	});
 
 $(function() {
-	var box8hover = $("#box8");
-	var box8audio = box8hover.find("audio")[0];
-
-	box8hover.hover(
+	var box8audio = $("#box8").find("audio")[0];
+	$("#box8").hover(
 		function() {
 		box8audio.play();
 	},
@@ -112,10 +96,8 @@ $(function() {
 	});
 
 $(function() {
-	var box9hover = $("#box9");
-	var box9audio = box9hover.find("audio")[0];
-
-	box9hover.hover(
+	var box9audio = $("#box9").find("audio")[0];
+	$("#box9").hover(
 		function() {
 		box9audio.play();
 	},
@@ -125,10 +107,8 @@ $(function() {
 	});
 
 $(function() {
-	var box10hover = $("#box10");
-	var box10audio = box10hover.find("audio")[0];
-
-	box10hover.hover(
+	var box10audio = $("#box10").find("audio")[0];
+	$("#box10").hover(
 		function() {
 		box10audio.play();
 	},
@@ -138,10 +118,8 @@ $(function() {
 	});
 
 $(function() {
-	var box11hover = $("#box11");
-	var box11audio = box11hover.find("audio")[0];
-
-	box11hover.hover(
+	var box11audio = $("#box11").find("audio")[0];
+	$("#box11").hover(
 		function() {
 		box11audio.play();
 	},
@@ -151,10 +129,8 @@ $(function() {
 	});
 
 $(function() {
-	var box12hover = $("#box12");
-	var box12audio = box12hover.find("audio")[0];
-
-	box12hover.hover(
+	var box12audio = $("#box12").find("audio")[0];
+	$("#box12").hover(
 		function() {
 		box12audio.play();
 	},
@@ -164,10 +140,8 @@ $(function() {
 	});
 
 $(function() {
-	var box13hover = $("#box13");
-	var box13audio = box13hover.find("audio")[0];
-
-	box13hover.hover(
+	var box13audio = $("#box13").find("audio")[0];
+	$("#box13").hover(
 		function() {
 		box13audio.play();
 	},
@@ -177,10 +151,8 @@ $(function() {
 	});
 
 $(function() {
-	var box14hover = $("#box14");
-	var box14audio = box14hover.find("audio")[0];
-
-	box14hover.hover(
+	var box14audio = $("#box14").find("audio")[0];
+	$("#box14").hover(
 		function() {
 		box14audio.play();
 	},
@@ -190,10 +162,8 @@ $(function() {
 	});
 
 $(function() {
-	var box15hover = $("#box15");
-	var box15audio = box15hover.find("audio")[0];
-
-	box15hover.hover(
+	var box15audio = $("#box15").find("audio")[0];
+	$("#box15").hover(
 		function() {
 		box15audio.play();
 	},
@@ -203,10 +173,8 @@ $(function() {
 	});
 
 $(function() {
-	var box16hover = $("#box16");
-	var box16audio = box16hover.find("audio")[0];
-
-	box16hover.hover(
+	var box16audio = $("#box16").find("audio")[0];
+	$("#box16").hover(
 		function() {
 		box16audio.play();
 	},
@@ -216,10 +184,8 @@ $(function() {
 	});
 
 $(function() {
-	var box17hover = $("#box17");
-	var box17audio = box17hover.find("audio")[0];
-
-	box17hover.hover(
+	var box17audio = $("#box17").find("audio")[0];
+	$("#box17").hover(
 		function() {
 		box17audio.play();
 	},
@@ -229,10 +195,8 @@ $(function() {
 	});
 
 $(function() {
-	var box18hover = $("#box18");
-	var box18audio = box18hover.find("audio")[0];
-
-	box18hover.hover(
+	var box18audio = $("#box18").find("audio")[0];
+	$("#box18").hover(
 		function() {
 		box18audio.play();
 	},
@@ -242,10 +206,8 @@ $(function() {
 	});
 
 $(function() {
-	var box19hover = $("#box19");
-	var box19audio = box19hover.find("audio")[0];
-
-	box19hover.hover(
+	var box19audio = $("#box19").find("audio")[0];
+	$("#box19").hover(
 		function() {
 		box19audio.play();
 	},
@@ -255,10 +217,8 @@ $(function() {
 	});
 
 $(function() {
-	var box20hover = $("#box20");
-	var box20audio = box20hover.find("audio")[0];
-
-	box20hover.hover(
+	var box20audio = $("#box20").find("audio")[0];
+	$("#box20").hover(
 		function() {
 		box20audio.play();
 	},
@@ -268,10 +228,8 @@ $(function() {
 	});
 
 $(function() {
-	var box21hover = $("#box21");
-	var box21audio = box21hover.find("audio")[0];
-
-	box21hover.hover(
+	var box21audio = $("#box21").find("audio")[0];
+	$("#box21").hover(
 		function() {
 		box21audio.play();
 	},
@@ -281,10 +239,8 @@ $(function() {
 	});
 
 $(function() {
-	var box22hover = $("#box22");
-	var box22audio = box22hover.find("audio")[0];
-
-	box22hover.hover(
+	var box22audio = $("#box22").find("audio")[0];
+	$("#box22").hover(
 		function() {
 		box22audio.play();
 	},
@@ -294,10 +250,8 @@ $(function() {
 	});
 
 $(function() {
-	var box23hover = $("#box23");
-	var box23audio = box23hover.find("audio")[0];
-
-	box23hover.hover(
+	var box23audio = $("#box23").find("audio")[0];
+	$("#box23").hover(
 		function() {
 		box23audio.play();
 	},
@@ -307,10 +261,8 @@ $(function() {
 	});
 
 $(function() {
-	var box24hover = $("#box24");
-	var box24audio = box24hover.find("audio")[0];
-
-	box24hover.hover(
+	var box24audio = $("#box24").find("audio")[0];
+	$("#box24").hover(
 		function() {
 		box24audio.play();
 	},
@@ -320,10 +272,8 @@ $(function() {
 	});
 
 $(function() {
-	var box25hover = $("#box25");
-	var box25audio = box25hover.find("audio")[0];
-
-	box25hover.hover(
+	var box25audio = $("#box25").find("audio")[0];
+	$("#box25").hover(
 		function() {
 		box25audio.play();
 	},
@@ -333,10 +283,8 @@ $(function() {
 	});
 
 $(function() {
-	var box26hover = $("#box26");
-	var box26audio = box26hover.find("audio")[0];
-
-	box26hover.hover(
+	var box26audio = $("#box26").find("audio")[0];
+	$("#box26").hover(
 		function() {
 		box26audio.play();
 	},
@@ -346,10 +294,8 @@ $(function() {
 	});
 
 $(function() {
-	var box27hover = $("#box27");
-	var box27audio = box27hover.find("audio")[0];
-
-	box27hover.hover(
+	var box27audio = $("#box27").find("audio")[0];
+	$("#box27").hover(
 		function() {
 		box27audio.play();
 	},
@@ -359,10 +305,8 @@ $(function() {
 	});
 
 $(function() {
-	var box28hover = $("#box28");
-	var box28audio = box28hover.find("audio")[0];
-
-	box28hover.hover(
+	var box28audio = $("#box28").find("audio")[0];
+	$("#box28").hover(
 		function() {
 		box28audio.play();
 	},
@@ -372,10 +316,8 @@ $(function() {
 	});
 
 $(function() {
-	var box29hover = $("#box29");
-	var box29audio = box29hover.find("audio")[0];
-
-	box29hover.hover(
+	var box29audio = $("#box29").find("audio")[0];
+	$("#box29").hover(
 		function() {
 		box29audio.play();
 	},
@@ -385,10 +327,8 @@ $(function() {
 	});
 
 $(function() {
-	var box30hover = $("#box30");
-	var box30audio = box30hover.find("audio")[0];
-
-	box30hover.hover(
+	var box30audio = $("#box30").find("audio")[0];
+	$("#box30").hover(
 		function() {
 		box30audio.play();
 	},
@@ -398,10 +338,8 @@ $(function() {
 	});
 
 $(function() {
-	var box31hover = $("#box31");
-	var box31audio = box31hover.find("audio")[0];
-
-	box31hover.hover(
+	var box31audio = $("#box31").find("audio")[0];
+	$("#box31").hover(
 		function() {
 		box31audio.play();
 	},
@@ -411,10 +349,8 @@ $(function() {
 	});
 
 $(function() {
-	var box32hover = $("#box32");
-	var box32audio = box32hover.find("audio")[0];
-
-	box32hover.hover(
+	var box32audio = $("#box32").find("audio")[0];
+	$("#box32").hover(
 		function() {
 		box32audio.play();
 	},
@@ -424,10 +360,8 @@ $(function() {
 	});
 
 $(function() {
-	var box33hover = $("#box33");
-	var box33audio = box33hover.find("audio")[0];
-
-	box33hover.hover(
+	var box33audio = $("#box33").find("audio")[0];
+	$("#box33").hover(
 		function() {
 		box33audio.play();
 	},
@@ -437,10 +371,8 @@ $(function() {
 	});
 
 $(function() {
-	var box34hover = $("#box34");
-	var box34audio = box34hover.find("audio")[0];
-
-	box34hover.hover(
+	var box34audio = $("#box34").find("audio")[0];
+	$("#box34").hover(
 		function() {
 		box34audio.play();
 	},
@@ -450,10 +382,8 @@ $(function() {
 	});
 
 $(function() {
-	var box35hover = $("#box35");
-	var box35audio = box35hover.find("audio")[0];
-
-	box35hover.hover(
+	var box35audio = $("#box35").find("audio")[0];
+	$("#box35").hover(
 		function() {
 		box35audio.play();
 	},
@@ -463,10 +393,8 @@ $(function() {
 	});
 
 $(function() {
-	var box36hover = $("#box36");
-	var box36audio = box36hover.find("audio")[0];
-
-	box36hover.hover(
+	var box36audio = $("#box36").find("audio")[0];
+	$("#box36").hover(
 		function() {
 		box36audio.play();
 	},
@@ -476,10 +404,8 @@ $(function() {
 	});
 
 $(function() {
-	var box37hover = $("#box37");
-	var box37audio = box37hover.find("audio")[0];
-
-	box37hover.hover(
+	var box37audio = $("#box37").find("audio")[0];
+	$("#box37").hover(
 		function() {
 		box37audio.play();
 	},
@@ -489,10 +415,8 @@ $(function() {
 	});
 
 $(function() {
-	var box38hover = $("#box38");
-	var box38audio = box38hover.find("audio")[0];
-
-	box38hover.hover(
+	var box38audio = $("#box38").find("audio")[0];
+	$("#box38").hover(
 		function() {
 		box38audio.play();
 	},
@@ -502,10 +426,8 @@ $(function() {
 	});
 
 $(function() {
-	var box39hover = $("#box39");
-	var box39audio = box39hover.find("audio")[0];
-
-	box39hover.hover(
+	var box39audio = $("#box39").find("audio")[0];
+	$("#box39").hover(
 		function() {
 		box39audio.play();
 	},
@@ -515,10 +437,8 @@ $(function() {
 	});
 
 $(function() {
-	var box40hover = $("#box40");
-	var box40audio = box40hover.find("audio")[0];
-
-	box40hover.hover(
+	var box40audio = $("#box40").find("audio")[0];
+	$("#box40").hover(
 		function() {
 		box40audio.play();
 	},
@@ -528,10 +448,8 @@ $(function() {
 	});
 
 $(function() {
-	var box41hover = $("#box41");
-	var box41audio = box41hover.find("audio")[0];
-
-	box41hover.hover(
+	var box41audio = $("#box41").find("audio")[0];
+	$("#box41").hover(
 		function() {
 		box41audio.play();
 	},
@@ -541,10 +459,8 @@ $(function() {
 	});
 
 $(function() {
-	var box42hover = $("#box42");
-	var box42audio = box42hover.find("audio")[0];
-
-	box42hover.hover(
+	var box42audio = $("#box42").find("audio")[0];
+	$("#box42").hover(
 		function() {
 		box42audio.play();
 	},
@@ -554,10 +470,8 @@ $(function() {
 	});
 
 $(function() {
-	var box43hover = $("#box43");
-	var box43audio = box43hover.find("audio")[0];
-
-	box43hover.hover(
+	var box43audio = $("#box43").find("audio")[0];
+	$("#box43").hover(
 		function() {
 		box43audio.play();
 	},
@@ -567,10 +481,8 @@ $(function() {
 	});
 
 $(function() {
-	var box44hover = $("#box44");
-	var box44audio = box44hover.find("audio")[0];
-
-	box44hover.hover(
+	var box44audio = $("#box44").find("audio")[0];
+	$("#box44").hover(
 		function() {
 		box44audio.play();
 	},
@@ -580,10 +492,8 @@ $(function() {
 	});
 
 $(function() {
-	var box45hover = $("#box45");
-	var box45audio = box45hover.find("audio")[0];
-
-	box45hover.hover(
+	var box45audio = $("#box45").find("audio")[0];
+	$("#box45").hover(
 		function() {
 		box45audio.play();
 	},
