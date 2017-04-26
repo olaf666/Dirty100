@@ -5,6 +5,8 @@ $(document).ready(function() {
 	$(".square").on("mouseenter",function() {
 		$("body").css("background-color",randomcolor());
 		$(this).css("background-color",randomcolor());
+		$("h1").css("color",randomcolor());
+		$("p").css("color",randomcolor());
 	 
 	});
 $(function() {
