@@ -1,3 +1,2 @@
-One tiny project, every day.
+Tiny little projects.
 
-This is the dirty100.
